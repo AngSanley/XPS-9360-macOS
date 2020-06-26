@@ -11,29 +11,22 @@
 |                      |   10.14    (18A389)  |                       |
 #### Preparation for macOS Big Sur 11.0 is on the way
   - Device  : Dell XPS 13 9360    
-  - CPU     : Intel i7-8550U                                                           
+  - CPU     : Intel i5-8250U                                                           
   - GPU     : Intel UHD 620 Kaby Lake                                                         
-  - RAM     : SK Hynix 16GB 2133 MHz LPDDR3
+  - RAM     : SK Hynix 8GB 2133 MHz LPDDR3
   - Sound   : Realtek ALC256 (ALC3246)                                              
-  - SSD     : [WD Black SN750 (WDS100T3X0C) 1TB NVMe PCIe SSD](https://www.amazon.com/BLACK-SN750-500GB-Internal-Gaming/dp/B07MH2P5ZD)                                     
-  - Display : FHD (1920x1080) on XPS | QHD (2560x1440) on external display (CHIMEI 27P10Q)
+  - SSD     : KXG50ZNV256G NVMe TOSHIBA 256GB                                  
+  - Display : QHD+ (3200 x 1800) with touchscreen (disabled)
   - Camera  : UVC Camera VendorID_3034 ProductID_22155
-  - Wireless Card (3 options):     
-  Swapped the original `Killer 1535` with [`BCM94360NG`](https://www.ebay.com/itm/Broadcom-BCM94360NG-WiFi-Card-better-than-DW1560-BT4-0-Adapter-802-11ac-1200Mbps-/283783627652).     
-  Swapped the original `Killer 1535` with [`BCM94360CS2`](https://www.amazon.com/Broadcom-Bcm94360cs2-Bcm94360cs2ax-Bluetooth-Wireless/dp/B00PDNDQ0K).     
-  Swapped the original `Killer 1535` with [`DW1560`](https://www.amazon.com/Broadcom-BCM94352Z-802-11a-Bluetooth-867Mbps/dp/B0156DVQ7G/ref=sr_1_2?keywords=dw1560&qid=1558493816&s=electronics&sr=1-2).     
-  - Thunderbolt 3 Dongle : [Dell DA300](https://www.amazon.com/Dell-DA300-USB-C-Mobile-Adapter/dp/B079MDQDP4)
-  - Dual-Boot OS: macOS Catalina `10.15.4 (19E287)` & Ubuntu `20.04 LTS`
+  - Wireless Card :     
+  Swapped the original `Killer 1535` with [`DW1820A`](https://www.aliexpress.com/item/32784524743.html).
 
 ## Device Firmware
 - BIOS Version: `2.8.1` - `2.13.0`
 - Thunderbolt 3 Version: `NVM 26`
-- `BCM94360CS2` Bluetooth Version: `v150 c9318`
-- `DW1560` Bluetooth Version: `v14 c5668` with BrcmPatch `v2.5.2`
 
 ## Bootloader Firmware
-- Default bootloader: Clover `r5118`
-- Beta: OpenCore `0.5.9` See more [info](https://github.com/the-Quert/XPS-9360-macOS/blob/master/README.md#Migrate-bootloader-from-Clover-to-OpenCore) about migration.
+- OpenCore `0.5.9` See more [info](https://github.com/the-Quert/XPS-9360-macOS/blob/master/README.md#Migrate-bootloader-from-Clover-to-OpenCore) about migration.
 
 ## Pre-Installation
 #### Create bootable USB installer: (Option 1 with gibMacOS)
