@@ -1502,17 +1502,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02906501QXJH4RJA</string>
+			<string></string>
 			<key>ROM</key>
-			<data>yP8oeMD/</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Y7ZYFJHCC</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>9930AEAC-34E0-4721-81C8-53728CD1EE30</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
