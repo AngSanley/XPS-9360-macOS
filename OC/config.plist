@@ -18,6 +18,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Emulate Windows 10</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XOSI.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
@@ -142,7 +150,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
+				<string>SSDT-UIAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
 				<string>SSDT-TYPC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-YTBT.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -1512,7 +1544,8 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>9930AEAC-34E0-4721-81C8-53728CD1EE30
+9930AEAC-34E0-4721-81C8-53728CD1EE30</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
